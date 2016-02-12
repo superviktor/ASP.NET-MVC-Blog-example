@@ -1,0 +1,151 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Tahoma;
+    font-size: 16px;
+    background: black;
+}
+
+#header {
+    padding: 10px;
+}
+
+#footer {
+    padding: 10px;
+}
+
+.separator {
+    clear: both;
+    height: 2px;
+    background: white;
+}
+
+#topSeparator {
+    margin-bottom: 20px;
+
+}
+
+#bottomSeparator {
+    margin-top: 20px;
+}
+
+#content {
+    /*background-image: ;*/
+}
+
+img {
+    border: none;
+}
+
+.postTitle {
+    margin: auto;
+    text-align: left;
+    width: 800px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Palatino;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+.postTitle a:link,.postTitle a:visited,.postTitle a:hover,.postTitle a:active {
+    color: white;
+}
+.postTitle a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.postContainer {
+    width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.postTabs {
+    color: white;
+    float: left;
+    font-size: 14px;
+
+}
+
+.dateTab {
+    margin-top: 20px;
+    width: 60px;
+    padding: 5px;
+    color: black;
+    background-color: white;
+}
+
+.day {
+    font-size: 2em;
+}
+
+.commmentsTab {
+   margin-top: 20px;
+    width: 60px;
+    padding: 5px;
+    background: white;
+}
+
+.postContent {
+    padding: 15px;
+    width: 700px;
+    margin-left: 76px;
+    color: white;
+    background: #2f3036;
+}
+
+
+.postBody {
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.tagList {
+    float: left;
+}
+
+.linkList {
+    text-align: right;
+}
+
+.comment, #commentPrompt {
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 30px;
+
+}
+
+#commentContainer {
+    width: 800px;
+    margin: auto;
+}
+
+.commentName {
+    font-style: italic;
+}
+
+.commentBody {
+    margin: 50px;
+}
+
+.commentTime {
+    font-style: italic;
+    text-align: right;
+}
+
+.commmentsTab a:link,.commmentsTab a:visited,.commmentsTab a:hover,.commmentsTab a:active {
+
+    color: black;
+}
+.commmentsTab a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.commmentsTab img{
+    margin-right: 5px;
+    vertical-align: middle;
+}
