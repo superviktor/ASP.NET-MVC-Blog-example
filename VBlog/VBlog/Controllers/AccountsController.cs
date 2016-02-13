@@ -12,14 +12,14 @@ namespace VBlog.Controllers
     public class AccountsController : Controller
     {
         private VBlogModel model = new VBlogModel();
-        public ActionResult Login(string name, string hash)
+        public ActionResult Login(string name, string hash,string password)
         {
             if (string.IsNullOrWhiteSpace(hash))
             {
                 Random random = new Random();
                 byte[] randomData = new byte[sizeof (long)];
                 random.NextBytes(randomData);
-                string newNonce = BitConverter.ToInt64(randomData, 0).ToString("X16");
+                string newNonce = BitConverter.ToUInt64(randomData, 0).ToString("X16");
                 Session["Nonce"] = newNonce;
                 return View(model:newNonce);
             }
@@ -30,19 +30,31 @@ namespace VBlog.Controllers
                 return RedirectToAction("Index", "Posts");
             }
 
-            string computedHash;
-            using (SHA256 sha256 = SHA256.Create())
+            // TODO: hash from form is not equal to this computed hash
+            //string computedHash;
+            //using (SHA256 sha256 = SHA256.Create())
+            //{
+            //    byte[] hashInput = Encoding.ASCII.GetBytes(admin.Password + nonce);
+            //    byte[] hashData = sha256.ComputeHash(hashInput);
+            //    var sb = new StringBuilder();
+            //    foreach (var value in hashData)
+            //    {
+            //        sb.AppendFormat("{0:X2}", value);
+            //    }
+            //    computedHash = sb.ToString();
+            //}
+            // TODO: hash from form is not equal to this computed hash
+            //Session["IsAdmin"] = (computedHash.ToLower() == hash.ToLower());
+
+
+            if (admin.Name == name && admin.Password == password)
             {
-                byte[] hashInput = Encoding.ASCII.GetBytes(admin.Password + nonce);
-                byte[] hashData = sha256.ComputeHash(hashInput);
-                var sb = new StringBuilder();
-                foreach (var value in hashData)
-                {
-                    sb.AppendFormat("{0:X2}", value);
-                }
-                computedHash = sb.ToString();
+                Session["IsAdmin"] = true;
             }
-            Session["IsAdmin"] = (String.Equals(computedHash, hash, StringComparison.CurrentCultureIgnoreCase));
+            else
+            {
+                Session["IsAdmin"] = false;
+            }
             return RedirectToAction("Index", "Posts");
         }
 

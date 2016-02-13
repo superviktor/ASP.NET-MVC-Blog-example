@@ -24,3 +24,29 @@ C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\VBlog\VBlog\bin\System.Web.
 C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\VBlog\VBlog\obj\Debug\VBlog.csprojResolveAssemblyReference.cache
 C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\VBlog\VBlog\obj\Debug\VBlog.dll
 C:\Users\HOUSE\Documents\Visual Studio 2013\Projects\VBlog\VBlog\obj\Debug\VBlog.pdb
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\VBlog.dll.config
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\VBlog.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\VBlog.pdb
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\Antlr3.Runtime.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\EntityFramework.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\Microsoft.Web.Infrastructure.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\Newtonsoft.Json.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Mvc.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Optimization.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Providers.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Razor.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.Deployment.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.Razor.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\WebGrease.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\EntityFramework.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\Newtonsoft.Json.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Mvc.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.Razor.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.Deployment.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\bin\System.Web.WebPages.Razor.xml
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\obj\Debug\VBlog.csprojResolveAssemblyReference.cache
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\obj\Debug\VBlog.dll
+E:\BlogMVC\ASP.NET-MVC-Blog-example\VBlog\VBlog\obj\Debug\VBlog.pdb

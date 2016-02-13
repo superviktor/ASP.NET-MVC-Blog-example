@@ -30,17 +30,17 @@
         </div>
         <div id="footer">
             <div id="copyright"> Copyright &copy; 2016, Viktor Prykhidko</div>
-            @if (ViewBag.IdAdmin ??false)
+            @if (ViewBag.IsAdmin ?? false)
             {
                 <div class="controlPanel">
-                    <a href="@Html.ActionLink("New Post","Edit","Posts")"></a>
-                    <a href="@Html.ActionLink("Logout","Logout","Accounts")"></a>
+                    <a href="@Url.Action("Edit", "Posts")"><span>New Post</span></a>
+                    <a href="@Url.Action("Logout", "Accounts")"><span>Logout</span></a>
                 </div>
             }
             else
             {
-                <div class="controlPanel">
-                    <a href="@Html.ActionLink("Login","Login","Accounts")"></a>
+                <div class="controlPanel">                   
+                        <a href="@Url.Action("Login", "Accounts")"><span>Login</span></a>
                </div>
             }
            

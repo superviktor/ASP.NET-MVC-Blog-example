@@ -26,7 +26,7 @@ namespace VBlog.Content
             ViewBag.IsPreviousLinkVisible = pageNumber > 0;
             ViewBag.IsNextLinkVisible = posts.Count() > PostPerPage;
             ViewBag.PageNumber = pageNumber;
-            ViewBag.IsAddmin = IsAdmin;
+            ViewBag.IsAdmin = IsAdmin;
             return View(posts.Take(PostPerPage));
         }
 
@@ -76,7 +76,7 @@ namespace VBlog.Content
             if (!id.HasValue)
             {
                 //bad implementation
-                post.Id = model.Posts.Count() + 1;
+                post.Id = model.Posts.Max(x=>x.Id)+ 1;
                 model.Posts.Add(post);
             }
             model.SaveChanges();
@@ -144,8 +144,8 @@ namespace VBlog.Content
         {
             get
             {
-                return true;
-                //return Session["IsAdmin"] != null && (bool)Session["IsAdmin"];
+                //return true;
+                return Session["IsAdmin"] != null && (bool)Session["IsAdmin"];
             }
         }
     }
