@@ -168,6 +168,7 @@
     <Content Include="Content\Images\background.jpg" />
     <Content Include="Content\Images\comment.png" />
     <Content Include="Content\Images\mandala.png" />
+    <Content Include="Content\Images\person-solid.png" />
     <Content Include="Content\VBLog.css" />
     <Content Include="Global.asax" />
     <Content Include="Models\VBlogModel.Context.tt">
